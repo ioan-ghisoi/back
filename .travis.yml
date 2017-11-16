@@ -19,8 +19,8 @@ addons:
 language: php
 node_js:
   - "6"
-sudo: required 
-dist: precise
+sudo: required
+dist: trusty
 php:
    - 7.0.20
 before_script:
