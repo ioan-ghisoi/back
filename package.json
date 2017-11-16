@@ -1,0 +1,23 @@
+{
+  "name": "of",
+  "version": "1.0.0",
+  "description": "magento2-travis -------------------------------------------------- This is a slightly modified version of the travis build script I created [for pestle](https://github.com/astorm/pestle), my Magento 2 code generate tool/module base PHP command line framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/chimp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioan-ghisoi/of.git"
+  },
+  "keywords": [],
+  "author": "“Johnny <“ionutghisoi95@gmail.com”>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioan-ghisoi/of/issues"
+  },
+  "homepage": "https://github.com/ioan-ghisoi/of#readme",
+  "dependencies": {
+    "chimp": "^0.50.2"
+  }
+}
