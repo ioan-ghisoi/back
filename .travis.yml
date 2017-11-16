@@ -20,6 +20,7 @@ language: php
 node_js:
   - "6"
 sudo: required
+
 dist: trusty
 php:
    - 7.0.20
@@ -37,7 +38,6 @@ before_script:
     #- sudo ls /etc/apache2/sites-enabled
     - pwd    
     #    
-    - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
     # get latest composer 
     - /sbin/start-stop-daemon --start --quiet --pidfile /tmp/cucumber_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0, 1280x1024x16
     - sleep 3 # give xvfb some time to start
